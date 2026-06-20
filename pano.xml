@@ -7,19 +7,19 @@
       <level height="412" preload="1" width="412" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="1">
+    <view pannorth="-118" fovmode="1">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.76852718" tags="CasaDidi|condomnio" altitude="842.90" nodeid="node1" comment="" info="" source="" author="" datetime="17/06/2026 16:53" title="Portaria" heading="0" longitude="-43.42708826"/>
+    <userdata customnodeid="" copyright="" description="" latitude="-21.76873144" tags="CasaDidi|condomnio" altitude="842.90" nodeid="node1" comment="" info="" source="" author="" datetime="17/06/2026 16:53" title="Portaria" heading="-118" longitude="-43.42747450"/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-2.12" description="" url="{node2}" skinid="ht_node" tilt="-0.11" title="Casa Conteporânea" target="-19.4/-17.1/100.0" id="Point01" distance="348.106"/>
-      <hotspot pan="-19.12" description="" url="{node3}" skinid="ht_node" tilt="2.31" title="Casa Línea" target="-13.2/2.5/100.0" id="Point02" distance="520.452"/>
-      <hotspot pan="-298.21" description="" url="{node4}" skinid="ht_node" tilt="-0.75" title="Área de Lazer" target="" id="Area de Lazer" distance="224.483"/>
+      <hotspot pan="-2.23" description="" url="{node2}" skinid="ht_node" tilt="-0.11" title="Casa Conteporânea" target="-10.6/-19.9/66.3" id="Point01" distance="305.428"/>
+      <hotspot pan="-19.12" description="" url="{node3}" skinid="ht_node" tilt="2.31" title="Casa Línea" target="-15.8/3.6/101.6" id="Point02" distance="496.802"/>
+      <hotspot pan="-298.21" description="" url="{node4}" skinid="ht_area_lazer" tilt="-0.75" title="Área de Lazer" target="-28.9/-22.9/66.3" id="Area de Lazer" distance="205.639"/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
@@ -39,13 +39,13 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.76996694" tags="CasaDidi" altitude="844.21" nodeid="node2" comment="" info="" source="" author="" datetime="17/06/2026 17:09" title="Casa Conteporânea" heading="88" longitude="-43.43008160"/>
+    <userdata customnodeid="" copyright="" description="" latitude="-21.77005162" tags="CasaDidi" altitude="844.21" nodeid="node2" comment="" info="" source="" author="" datetime="17/06/2026 17:09" title="Casa Conteporânea" heading="88" longitude="-43.43006819"/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-335.04" description="" url="{node1}" skinid="ht_node" tilt="-1.46" title="Portaria" target="-15.9/1.4/100.0" id="Point01" distance="348.106"/>
-      <hotspot pan="116.252" description="" url="{node3}" skinid="ht_node" tilt="2.75" title="Casa linea&#xa;" target="-15.6/1.7/117.0" id="Point02" distance="426.277"/>
-      <hotspot pan="-13.774" description="" url="{node4}" skinid="ht_node" tilt="0" title="Área de Lazer" target="$fwd" id="Point03" distance="315.564"/>
+      <hotspot pan="-335.04" description="" url="{node1}" skinid="ht_portaria" tilt="-1.46" title="Portaria" target="-28.9/-22.9/60.2" id="Point01" distance="305.428"/>
+      <hotspot pan="116.252" description="" url="{node3}" skinid="ht_node" tilt="2.75" title="Casa linea&#xa;" target="-28.9/-22.9/60.2" id="Point02" distance="435.562"/>
+      <hotspot pan="-12.1351" description="" url="{node4}" skinid="ht_area_lazer" tilt="0" title="Área de Lazer" target="-28.9/-22.9/103.1" id="Point03" distance="312.415"/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
@@ -59,22 +59,22 @@
       <level height="415" preload="1" width="415" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-59" fovmode="1">
+    <view pannorth="-57" fovmode="1">
       <start tilt="0.98" pan="-12.51" projection="4" fov="139.84"/>
       <flyin tilt="-90" pan="0" projection="9" fov="306.8"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.76639245" tags="CasaDidi|CasaLnea" nodeid="node3" comment="" info="" source="" author="" datetime="2026:06:17 15:28:56" title="Casa Línea" heading="-59" longitude="-43.43157345"/>
+    <userdata customnodeid="" copyright="" description="" latitude="-21.76639245" tags="CasaDidi|CasaLnea" nodeid="node3" comment="" info="" source="" author="" datetime="2026:06:17 15:28:56" title="Casa Línea" heading="-57" longitude="-43.43157345"/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-178.16" description="" url="{node1}" skinid="ht_node" tilt="4.84" title="Portaria" target="-15.7/1.1/100.0" id="Point01" distance="520.452"/>
-      <hotspot pan="-218.7" description="" url="{node2}" skinid="ht_node" tilt="2.86" title="Casa conteporânea" target="" id="Point02" distance="426.277"/>
-      <hotspot pan="-193.117" description="" url="{node4}" skinid="ht_node" tilt="4.76" title="Área de Lazer" target="$fwd" id="Point03" distance="653.961"/>
+      <hotspot pan="-178.16" description="" url="{node1}" skinid="ht_portaria" tilt="4.84" title="Portaria" target="-16.1/-0.7/72.7" id="Point01" distance="496.802"/>
+      <hotspot pan="-218.7" description="" url="{node2}" skinid="ht_node" tilt="2.95" title="Casa conteporânea" target="-17.8/-17.3/72.7" id="Point02" distance="435.562"/>
+      <hotspot tilt="4.76" pan="-193.12" title="Área de Lazer" description="" target="-28.9/-22.9/79.5" url="{node4}" id="Point03" skinid="ht_area_lazer"/>
     </hotspots>
     <media>
-      <webelement rotx="9.880" stretch="0.930" popbackmode="0" clickmode="1" popoutscaling="60" id="Vídeo Imóvel" permeable="0" height="1080" pan="-34.880" roty="-22.450" hidepinned="0" rotz="4.750" code="&lt;iframe width=&quot;1920&quot; height=&quot;1080&quot; src=&quot;https://www.youtube.com/embed/8K5FWxSBUOI?si=8JL9JO8tHP2mvQ0S&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen>&lt;/iframe>" handcursor="0" tilt="13.180" width="1920" fov="20.380"/>
+      <webelement rotx="9.880" stretch="0.930" popbackmode="0" clickmode="1" popoutscaling="100" id="Vídeo Imóvel" permeable="0" height="1080" pan="-34.880" roty="-22.450" hidepinned="0" rotz="4.750" code="&lt;iframe width=&quot;1920&quot; height=&quot;1080&quot; src=&quot;https://www.youtube.com/embed/8K5FWxSBUOI?si=8JL9JO8tHP2mvQ0S&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen>&lt;/iframe>" handcursor="0" tilt="13.180" width="1920" fov="20.380"/>
     </media>
     <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
@@ -87,19 +87,19 @@
       <level height="412" preload="1" width="412" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="1">
+    <view pannorth="-16" fovmode="1">
       <start tilt="0" pan="0" projection="4" fov="100"/>
       <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.770546" tags="readelazer" altitude="865.00" nodeid="node4" comment="" info="" source="" author="" datetime="17/06/2026 16:55" title="Área de Lazer" heading="0" longitude="-43.427090"/>
+    <userdata customnodeid="" copyright="" description="" latitude="-21.770546" tags="readelazer" altitude="865.00" nodeid="node4" comment="" info="" source="" author="" datetime="17/06/2026 16:55" title="Área de Lazer" heading="-16" longitude="-43.427090"/>
     <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
       <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-0.0458611" description="" url="{node1}" skinid="ht_node" tilt="0" title="Portaria" target="$fwd" id="Point02" distance="224.483"/>
-      <hotspot pan="78.2271" description="" url="{node2}" skinid="ht_node" tilt="0" title="Casa Conteporânea" target="$fwd" id="Point03" distance="315.564"/>
-      <hotspot pan="45.071" description="" url="{node3}" skinid="ht_node" tilt="0" title="Casa Línea" target="$fwd" id="Point04" distance="653.961"/>
+      <hotspot pan="-6.75" description="" url="{node1}" skinid="ht_portaria" tilt="-4.78" title="Portaria" target="-16.0/0.8/73.4" id="Point02" distance="205.639"/>
+      <hotspot pan="62" description="" url="{node2}" skinid="ht_node" tilt="-4.6" title="Casa Conteporânea" target="-16.2/-18.2/66.3" id="Point03" distance="312.415"/>
+      <hotspot pan="29.071" description="" url="{node3}" skinid="ht_node" tilt="0" title="Casa Línea" target="-13.8/-0.8/101.6" id="Point04" distance="653.961"/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
