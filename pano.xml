@@ -1,113 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20986" start="node1" appversion="7.1.8" hassounds="0">
+<tour apprev="20986" start="node1" hassounds="0" appversion="7.1.8">
   <panorama id="node1">
-    <input levelingpitch="0" height="1649" levelbiashidpi="1.000" overlap="1" width="1649" leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level height="1649" preload="0" width="1649" predecode="0"/>
-      <level height="824" preload="0" width="824" predecode="0"/>
-      <level height="412" preload="1" width="412" predecode="1"/>
+    <input levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1649" height="1649" levelbiashidpi="1.000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level width="1649" height="1649" predecode="0" preload="0"/>
+      <level width="824" height="824" predecode="0" preload="0"/>
+      <level width="412" height="412" predecode="1" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-118" fovmode="1">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
+      <start pan="0" tilt="0" projection="4" fov="100"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.76873144" tags="CasaDidi|condomnio" altitude="842.90" nodeid="node1" comment="" info="" source="" author="" datetime="17/06/2026 16:53" title="Portaria" heading="-118" longitude="-43.42747450"/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-2.23" description="" url="{node2}" skinid="ht_node" tilt="-0.11" title="Casa Conteporânea" target="-10.6/-19.9/66.3" id="Point01" distance="305.428"/>
-      <hotspot pan="-19.12" description="" url="{node3}" skinid="ht_node" tilt="2.31" title="Casa Línea" target="-15.8/3.6/101.6" id="Point02" distance="496.802"/>
-      <hotspot pan="-298.21" description="" url="{node4}" skinid="ht_area_lazer" tilt="-0.75" title="Área de Lazer" target="-28.9/-22.9/66.3" id="Area de Lazer" distance="205.639"/>
+    <userdata comment="" author="" altitude="842.90" nodeid="node1" description="" datetime="17/06/2026 16:53" heading="-118" customnodeid="" info="" source="" tags="CasaDidi|condomnio" title="Portaria" copyright="" latitude="-21.76873144" longitude="-43.42747450"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label borderalpha="1" textalpha="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderradius="1" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot tilt="-0.11" target="-10.6/-19.9/66.3" id="Point01" description="" pan="-2.23" url="{node2}" distance="305.428" title="Casa Conteporânea" skinid="ht_node"/>
+      <hotspot tilt="2.31" target="-15.8/3.6/101.6" id="Point02" description="" pan="-19.12" url="{node3}" distance="496.802" title="Casa Línea" skinid="ht_node"/>
+      <hotspot tilt="-0.75" target="-28.9/-22.9/66.3" id="Area de Lazer" description="" pan="-298.21" url="{node4}" distance="205.639" title="Área de Lazer" skinid="ht_area_lazer"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" invertcontrol="1" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedwheel="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" hideabout="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0"/>
+    <transition zoomout="0" delay="none" type="crossdissolve" zoomin="0" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" blendtime="1" enabled="1" zoomfov="40"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" invertwheel="0" sensitivity="8" contextvr="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelingpitch="0" height="1647" levelbiashidpi="1.000" overlap="1" width="1647" leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level height="1647" preload="0" width="1647" predecode="0"/>
-      <level height="823" preload="0" width="823" predecode="0"/>
-      <level height="411" preload="1" width="411" predecode="1"/>
+    <input levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1647" height="1647" levelbiashidpi="1.000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level width="1647" height="1647" predecode="0" preload="0"/>
+      <level width="823" height="823" predecode="0" preload="0"/>
+      <level width="411" height="411" predecode="1" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="88" fovmode="1">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
+      <start pan="0" tilt="0" projection="4" fov="100"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.77005162" tags="CasaDidi" altitude="844.21" nodeid="node2" comment="" info="" source="" author="" datetime="17/06/2026 17:09" title="Casa Conteporânea" heading="88" longitude="-43.43006819"/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-335.04" description="" url="{node1}" skinid="ht_portaria" tilt="-1.46" title="Portaria" target="-28.9/-22.9/60.2" id="Point01" distance="305.428"/>
-      <hotspot pan="116.252" description="" url="{node3}" skinid="ht_node" tilt="2.75" title="Casa linea&#xa;" target="-28.9/-22.9/60.2" id="Point02" distance="435.562"/>
-      <hotspot pan="-12.1351" description="" url="{node4}" skinid="ht_area_lazer" tilt="0" title="Área de Lazer" target="-28.9/-22.9/103.1" id="Point03" distance="312.415"/>
+    <userdata comment="" author="" altitude="844.21" nodeid="node2" description="" datetime="17/06/2026 17:09" heading="88" customnodeid="" info="" source="" tags="CasaDidi" title="Casa Conteporânea" copyright="" latitude="-21.77005162" longitude="-43.43006819"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label borderalpha="1" textalpha="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderradius="1" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot tilt="-1.46" target="-28.9/-22.9/60.2" id="Point01" description="" pan="-335.04" url="{node1}" distance="305.428" title="Portaria" skinid="ht_portaria"/>
+      <hotspot tilt="2.75" target="-28.9/-22.9/60.2" id="Point02" description="" pan="116.252" url="{node3}" distance="435.562" title="Casa linea&#xa;" skinid="ht_node"/>
+      <hotspot tilt="0" target="-28.9/-22.9/103.1" id="Point03" description="" pan="-12.1351" url="{node4}" distance="312.415" title="Área de Lazer" skinid="ht_area_lazer"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" invertcontrol="1" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedwheel="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" hideabout="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0"/>
+    <transition zoomout="0" delay="none" type="crossdissolve" zoomin="0" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" blendtime="1" enabled="1" zoomfov="40"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" invertwheel="0" sensitivity="8" contextvr="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" height="1660" levelbiashidpi="1.000" overlap="1" width="1660" leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level height="1660" preload="0" width="1660" predecode="0"/>
-      <level height="830" preload="0" width="830" predecode="0"/>
-      <level height="415" preload="1" width="415" predecode="1"/>
+    <input levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1660" height="1660" levelbiashidpi="1.000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level width="1660" height="1660" predecode="0" preload="0"/>
+      <level width="830" height="830" predecode="0" preload="0"/>
+      <level width="415" height="415" predecode="1" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-57" fovmode="1">
-      <start tilt="0.98" pan="-12.51" projection="4" fov="139.84"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="306.8"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
+      <start pan="-12.51" tilt="0.98" projection="4" fov="139.84"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="306.8"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.76639245" tags="CasaDidi|CasaLnea" nodeid="node3" comment="" info="" source="" author="" datetime="2026:06:17 15:28:56" title="Casa Línea" heading="-57" longitude="-43.43157345"/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-178.16" description="" url="{node1}" skinid="ht_portaria" tilt="4.84" title="Portaria" target="-16.1/-0.7/72.7" id="Point01" distance="496.802"/>
-      <hotspot pan="-218.7" description="" url="{node2}" skinid="ht_node" tilt="2.95" title="Casa conteporânea" target="-17.8/-17.3/72.7" id="Point02" distance="435.562"/>
-      <hotspot tilt="4.76" pan="-193.12" title="Área de Lazer" description="" target="-28.9/-22.9/79.5" url="{node4}" id="Point03" skinid="ht_area_lazer"/>
+    <userdata comment="" author="" nodeid="node3" description="" datetime="2026:06:17 15:28:56" heading="-57" customnodeid="" info="" source="" tags="CasaDidi|CasaLnea" title="Casa Línea" copyright="" latitude="-21.76639245" longitude="-43.43157345"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label borderalpha="1" textalpha="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderradius="1" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot tilt="4.84" target="-16.1/-0.7/72.7" id="Point01" description="" pan="-178.16" url="{node1}" distance="496.802" title="Portaria" skinid="ht_portaria"/>
+      <hotspot tilt="2.95" target="-17.8/-17.3/72.7" id="Point02" description="" pan="-218.7" url="{node2}" distance="435.562" title="Casa conteporânea" skinid="ht_node"/>
+      <hotspot pan="-193.12" url="{node4}" tilt="4.76" target="-28.9/-22.9/79.5" title="Área de Lazer" id="Point03" skinid="ht_area_lazer" description=""/>
+      <hotspot pan="-16.34" url="https://crimoveisdeluxo.com.br/imovel/LSUCgJdCM1IPjoNtcjWI" tilt="32.91" target="_top" title="" id="Página do imóvel" skinid="ht_url" description=""/>
     </hotspots>
     <media>
-      <webelement rotx="9.880" stretch="0.930" popbackmode="0" clickmode="1" popoutscaling="100" id="Vídeo Imóvel" permeable="0" height="1080" pan="-34.880" roty="-22.450" hidepinned="0" rotz="4.750" code="&lt;iframe width=&quot;1920&quot; height=&quot;1080&quot; src=&quot;https://www.youtube.com/embed/8K5FWxSBUOI?si=8JL9JO8tHP2mvQ0S&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen>&lt;/iframe>" handcursor="0" tilt="13.180" width="1920" fov="20.380"/>
+      <webelement stretch="0.930" id="Vídeo Imóvel" popbackmode="0" popoutscaling="100" rotz="4.750" pan="-34.880" roty="-22.450" clickmode="1" tilt="13.180" handcursor="0" rotx="9.880" code="&lt;iframe width=&quot;1920&quot; height=&quot;1080&quot; src=&quot;https://www.youtube.com/embed/8K5FWxSBUOI?si=8JL9JO8tHP2mvQ0S&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen>&lt;/iframe>" width="1920" height="1080" permeable="0" fov="20.380" hidepinned="0"/>
     </media>
-    <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" invertcontrol="1" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedwheel="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" hideabout="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0"/>
+    <transition zoomout="0" delay="none" type="crossdissolve" zoomin="0" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" blendtime="1" enabled="1" zoomfov="40"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" invertwheel="0" sensitivity="8" contextvr="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingpitch="0" height="1649" levelbiashidpi="1.000" overlap="1" width="1649" leveltilesize="510" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level height="1649" preload="0" width="1649" predecode="0"/>
-      <level height="824" preload="0" width="824" predecode="0"/>
-      <level height="412" preload="1" width="412" predecode="1"/>
+    <input levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="1649" height="1649" levelbiashidpi="1.000" levelingpitch="0" overlap="1" leveltilesize="510">
+      <level width="1649" height="1649" predecode="0" preload="0"/>
+      <level width="824" height="824" predecode="0" preload="0"/>
+      <level width="412" height="412" predecode="1" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-16" fovmode="1">
-      <start tilt="0" pan="0" projection="4" fov="100"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140"/>
+      <start pan="0" tilt="0" projection="4" fov="100"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata customnodeid="" copyright="" description="" latitude="-21.770546" tags="readelazer" altitude="865.00" nodeid="node4" comment="" info="" source="" author="" datetime="17/06/2026 16:55" title="Área de Lazer" heading="-16" longitude="-43.427090"/>
-    <hotspots height="20" width="180" smoothmovement="0" wordwrap="1">
-      <label height="20" textalpha="1" border="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" width="180" enabled="1" borderradius="1" background="1" wordwrap="1" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot pan="-6.75" description="" url="{node1}" skinid="ht_portaria" tilt="-4.78" title="Portaria" target="-16.0/0.8/73.4" id="Point02" distance="205.639"/>
-      <hotspot pan="62" description="" url="{node2}" skinid="ht_node" tilt="-4.6" title="Casa Conteporânea" target="-16.2/-18.2/66.3" id="Point03" distance="312.415"/>
-      <hotspot pan="29.071" description="" url="{node3}" skinid="ht_node" tilt="0" title="Casa Línea" target="-13.8/-0.8/101.6" id="Point04" distance="653.961"/>
+    <userdata comment="" author="" altitude="865.00" nodeid="node4" description="" datetime="17/06/2026 16:55" heading="-16" customnodeid="" info="" source="" tags="readelazer" title="Área de Lazer" copyright="" latitude="-21.770546" longitude="-43.427090"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label borderalpha="1" textalpha="1" wordwrap="1" width="180" height="20" textcolor="0x000000" background="1" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" borderradius="1" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot tilt="-4.78" target="-16.0/0.8/73.4" id="Point02" description="" pan="-6.75" url="{node1}" distance="205.639" title="Portaria" skinid="ht_portaria"/>
+      <hotspot tilt="-4.6" target="-16.2/-18.2/66.3" id="Point03" description="" pan="62" url="{node2}" distance="312.415" title="Casa Conteporânea" skinid="ht_node"/>
+      <hotspot tilt="0" target="-13.8/-0.8/101.6" id="Point04" description="" pan="29.071" url="{node3}" distance="653.961" title="Casa Línea" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomafteroutfov="40" zoomoutpause="1" type="crossdissolve" zoomin="0" zoomfov="40" zoomafterinfov="140" zoomspeed="2" enabled="1" zoomout="0" delay="none" blendtime="1" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" invertcontrol="1" zoomcentercursor="1" invertwheel="0" speedwheel="1" lockedwheel="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="1" lockedmouse="0" contextprojections="0" rubberband="0" hideabout="0" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0"/>
+    <transition zoomout="0" delay="none" type="crossdissolve" zoomin="0" zoomoutpause="1" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40" blendtime="1" enabled="1" zoomfov="40"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="1" lockedmouse="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" invertwheel="0" sensitivity="8" contextvr="1" contextprojections="0" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" author="" title="Área de Lazer" description="" tags="" comment=""/>
+    <userdata comment="" author="" title="Área de Lazer" tags="" copyright="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
